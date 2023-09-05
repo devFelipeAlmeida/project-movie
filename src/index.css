@@ -1,0 +1,35 @@
+* {
+    font-family: Helvetica;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #000;
+    color: white;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #f7d354;
+    transition: 0.2s;
+  }
+  
+  a:hover {
+    color: #b8930c;
+  }
+
+  body::-webkit-scrollbar {
+    width: 12px;               
+  }
+  
+  body::-webkit-scrollbar-track {
+    background-color: #121212;       
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #353535;
+    border-radius: 20px;
+    
+  }

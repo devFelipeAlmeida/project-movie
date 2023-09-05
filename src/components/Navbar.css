@@ -1,0 +1,59 @@
+
+.navbar {
+    background-color: .121212;
+    width: 100%;
+    height: 6rem
+  }
+
+  .fixed
+  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    background-color: #121212;
+    height: 6rem;
+    padding: 1rem 2rem;
+  }
+  
+  .navbar h2 a {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .navbar form {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .navbar input {
+    padding: 0.6rem 1.5rem;
+    border-radius: 4px;
+    border: none;
+    width: 100%;
+  }
+  
+  .navbar form button {
+    background-color: #f7d354;
+    border: 2px solid #f7d354;
+    border-radius: 4px;
+    color: #000;
+    padding: 0.3rem;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .text
+  {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .text_title
+  {
+    cursor: pointer;
+  }
